@@ -1,0 +1,55 @@
+.container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.etiqueta {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333; /* Color de texto */
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #f0f0f0; /* Color de fondo */
+  border-radius: 5px;
+  display: inline-block; /* Para ajustar el tamaño al contenido */
+}
+
+.no-select {
+  user-select: none; /* Deshabilitar la selección de texto */
+}
+
+.input {
+  padding: 18px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  width: 10ch; /* Establece el ancho para 10 caracteres */
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px; /* Añadir margen entre los botones */
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.verification-message {
+  color: green;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.attempts {
+  color: red;
+  font-size: 16px;
+  margin-top: 10px;
+}

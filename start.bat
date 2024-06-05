@@ -1,0 +1,1 @@
+start cmd.exe /k "cd C:\Users\fredd_\recaptchaDos\recaptchaDos\seguridad && npm run dev"
