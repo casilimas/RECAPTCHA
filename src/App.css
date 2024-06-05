@@ -1,13 +1,24 @@
 .container {
   text-align: center;
   margin-top: 10px;
+  width: 350px;
+  height: 400px;
+  background-color: rgb(228, 240, 236);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); /* Sombras añadidas */
 }
 
+
+
+
 .etiqueta {
-  font-size: 18px;
+  margin-top: 30px;
+  font-size: 25px;
   font-weight: bold;
   color: #333; /* Color de texto */
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   padding: 5px;
   background-color: #f0f0f0; /* Color de fondo */
   border-radius: 5px;
@@ -23,12 +34,13 @@
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  margin-bottom: 10px;
-  width: 10ch; /* Establece el ancho para 10 caracteres */
+  margin-bottom: 20px;
+  width: 30ch; /* Establece el ancho para 10 caracteres */
 }
 
 .button {
-  padding: 10px 20px;
+  margin-top: 70px;
+  padding: 10px 15px;
   font-size: 16px;
   color: #fff;
   background-color: #007BFF;
@@ -45,11 +57,11 @@
 .verification-message {
   color: green;
   font-size: 18px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .attempts {
   color: red;
   font-size: 16px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
